@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 4rem;
+  z-index: 10;
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  flex-wrap: nowrap;
+  width: max-content;
+}
+
+.first-slider, .second-slider {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.slider-section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-image-wrapper{
+  position: relative;
+  width: 60%;
+}
+
+.slider-image {
+  width: 100%;
+  height: auto;
+}
+
+.slider-title {
+  position: absolute;
+  bottom: -5rem;
+}
+
